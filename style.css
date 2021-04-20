@@ -1,0 +1,242 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body
+{
+    background-image: url(imagesi.jpg);
+}
+ 
+.badan-utama
+{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header
+{
+    background-color: #DC143C;
+    color:#eaeaea ;
+    padding: 18px;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+    text-align: center
+
+}
+header p
+{
+    font-weight: bold;
+    text-align: center;
+    color: #DAA520;
+    margin-top: 20px;
+    font-size: 30px;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#DAA520;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li 
+{
+    float: left;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: #DC143C;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.active{
+    background:black ;
+}
+ 
+.navigasi li a:hover 
+{
+    background-color:blue;
+    transition-duration: 2s;
+}
+ 
+.gambar
+{
+    margin-bottom: 15px;
+}
+ 
+.gambar img
+{
+    display: block;
+    width: 100%;
+    height: 290px;
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3
+{
+    background-color: crimson;
+    color: white ;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+.menu-kananok
+{
+    width: 360px;
+    margin-right: 15px;
+    float: right;
+}
+.menu-kananok img{
+    height: 270px;
+    width: 330px;
+}
+.menu-kananok p{
+    font-weight: bold;
+}
+.menu-kananok a{
+    text-decoration:  none;
+    color: crimson;
+}
+ 
+.menu-tengah
+{
+    width: 700px;
+    margin-left: : 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: crimson;
+    margin-bottom: 0;
+}
+ .menu-tengah p{
+    font-weight: bold;
+ }
+
+.tanggal-posting
+{
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+ 
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+ 
+.tombol-lengkap
+{
+    background-color: crimson;
+}
+ 
+.menu-kanan
+{
+    width: 360px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-kananok, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+footer
+{
+    clear: both;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+.sosmed h3{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.logo img{
+    height: 30px;
+    width: 40px;
+    float: left;
+    margin: 10px
+} 
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    header h2, header p
+    {
+        text-align: center;
+    }
+ 
+    .menu-kananok, .menu-kanan, .menu-tengah
+    {
+        float: none;
+        width: 100%;
+    }
+ 
+    .navigasi li
+    {
+        float: none;
+    }
+}
